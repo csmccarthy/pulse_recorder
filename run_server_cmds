@@ -1,0 +1,5 @@
+npm run serve -- --host=127.0.0.1
+
+./ngrok http 30001 -host-header="localhost:30001"
+
+uvicorn app:app --port 30000 --host 0.0.0.0 --workers 2
